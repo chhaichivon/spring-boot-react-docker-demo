@@ -2,12 +2,12 @@
 
 # build from Dockerfile to image
 
-docker build -t mytest2 .
+    $ docker build -t frontend:1.0.0 .
 
 # run test
 
-docker run -p 3000:3000 mytest2
+    $ docker run -p 3000:3000 frontend
 
 # run container permanently
 
-docker run -t -d -p 3000:3000 mytest2 
+    $ docker run -t -d -p 3000:3000 frontend 

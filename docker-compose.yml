@@ -6,7 +6,7 @@ services:
   backend-service:
     image: backend:0.0.1-SNAPSHOT # Configuration for building the docker image for the backend service
     build:
-      context: ./
+      context: ./spring-boot-backend
       dockerfile: Dockerfile
     ports:
       - "8080:8080" # Forward the exposed port 8080 on the container to port 8080 on the host machine
