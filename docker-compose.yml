@@ -1,12 +1,13 @@
 version: '3'
+
 # Define services
 services:
 
-  # App backend service
+  # Backend service
   backend-service:
-    image: backend:0.0.1-SNAPSHOT # Configuration for building the docker image for the backend service
+    #image: backend:v1.0.0 # Configuration for building the docker image for the backend service
     build:
-      context: ./spring-boot-backend
+      context: ./backend # Use an image built from the specified dockerfile in the `backend` directory.
       dockerfile: Dockerfile
     ports:
       - "8080:8080" # Forward the exposed port 8080 on the container to port 8080 on the host machine
@@ -19,6 +20,22 @@ services:
       SPRING_DATASOURCE_PASSWORD: P@ssw0rd
     networks: # Networks to join (Services on the same network can communicate with each other using their name)
       - backend
+
+  # Frontend Service
+  frontend-service:
+    #image: frontend:v1.0.0 # Configuration for building the docker image for the frontend service
+    build:
+      context: frontend # Use an image built from the specified dockerfile in the `frontend` directory.
+      dockerfile: Dockerfile
+      args:
+        REACT_APP_API_BASE_URL: http://127.0.0.1:8080/api
+    ports:
+      - "9090:3000" # Forward the exposed port 80 on the container to port 80 on the host machine
+    restart: always
+    depends_on:
+      - backend-service
+    networks:
+      - frontend
 
   # Database Service (Mysql)
   db-mysql:
@@ -40,6 +57,7 @@ services:
       interval: 2s
       timeout: 20s
       retries: 10
+
 # Volumes
 volumes:
   db-data:
@@ -47,8 +65,4 @@ volumes:
 # Networks to be created to facilitate communication between containers
 networks:
   backend:
-  #------------------------------------------------------------------
-  #This definition create the network name `spring-boot-mysql-network`, the two service named `backend-service` and `mysql-service` will bind together with that network.
-  #Bridge: The bridge driver creates a private network internal to the host so containers on this network can communicate. External access is granted by exposing ports to containers.
-  #Docker secures the network by managing rules that block connectivity between different Docker networks.
-  #-------------------------------------------------------------------
+  frontend:
