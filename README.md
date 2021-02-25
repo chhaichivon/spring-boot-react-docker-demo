@@ -16,3 +16,10 @@
   Docker Compose
     
     $ docker-compose up -d
+    
+    or 
+    
+    $ docker-compose up -d --build
+    
+    
+    $ docker-compose stop

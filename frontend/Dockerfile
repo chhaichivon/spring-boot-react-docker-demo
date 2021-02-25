@@ -4,7 +4,6 @@ FROM node:12.18.1 as build
 # set working directory
 WORKDIR /app
 
-
 # install app dependencies
 COPY package.json ./
 COPY package-lock.json ./
@@ -15,15 +14,14 @@ RUN npm install react-scripts@3.4.1 -g --silent
 COPY . ./
 
 # start app
-#CMD ["npm", "start"]
+CMD ["npm", "start"]
 
 ## Arguments
 ARG REACT_APP_API_BASE_URL
 ENV REACT_APP_API_BASE_URL=${REACT_APP_API_BASE_URL}
-#
+
 ## Build the application
 RUN npm run build
-#
 
 # Stage 2: Serve the React application from Nginx
 FROM nginx

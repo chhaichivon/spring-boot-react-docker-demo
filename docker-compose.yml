@@ -5,7 +5,6 @@ services:
 
   # Backend service
   backend-service:
-    #image: backend:v1.0.0 # Configuration for building the docker image for the backend service
     build:
       context: ./backend # Use an image built from the specified dockerfile in the `backend` directory.
       dockerfile: Dockerfile
@@ -23,14 +22,13 @@ services:
 
   # Frontend Service
   frontend-service:
-    #image: frontend:v1.0.0 # Configuration for building the docker image for the frontend service
     build:
       context: frontend # Use an image built from the specified dockerfile in the `frontend` directory.
       dockerfile: Dockerfile
       args:
         REACT_APP_API_BASE_URL: http://127.0.0.1:8080/api
     ports:
-      - "9090:3000" # Forward the exposed port 80 on the container to port 80 on the host machine
+      - "3000:80" # Forward the exposed port 80 on the container to port 80 on the host machine
     restart: always
     depends_on:
       - backend-service
