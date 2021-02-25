@@ -2,217 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="12710a1d-cb11-43c0-a132-b7f2c2f6483b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-js-frontend/node_modules/.cache/babel-loader/1ab544669a9266b6e053b3637f214841.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-js-frontend/node_modules/.cache/babel-loader/7c721c7cb1486a3679bafe29b03fa51d.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-js-frontend/node_modules/.cache/babel-loader/8a265cc819d93f9211354c656c8e2588.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-js-frontend/node_modules/history/DOMUtils.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-js-frontend/node_modules/history/ExecutionEnvironment.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-js-frontend/node_modules/history/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-js-frontend/node_modules/history/LocationUtils.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-js-frontend/node_modules/history/PathUtils.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-js-frontend/node_modules/history/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-js-frontend/node_modules/history/cjs/history.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-js-frontend/node_modules/history/cjs/history.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-js-frontend/node_modules/history/createBrowserHistory.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-js-frontend/node_modules/history/createHashHistory.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-js-frontend/node_modules/history/createMemoryHistory.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-js-frontend/node_modules/history/createTransitionManager.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-js-frontend/node_modules/history/es/DOMUtils.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-js-frontend/node_modules/history/es/ExecutionEnvironment.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-js-frontend/node_modules/history/es/LocationUtils.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-js-frontend/node_modules/history/es/PathUtils.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-js-frontend/node_modules/history/es/createBrowserHistory.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-js-frontend/node_modules/history/es/createHashHistory.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-js-frontend/node_modules/history/es/createMemoryHistory.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-js-frontend/node_modules/history/es/createTransitionManager.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-js-frontend/node_modules/history/es/warnAboutDeprecatedESMImport.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-js-frontend/node_modules/history/esm/history.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-js-frontend/node_modules/history/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-js-frontend/node_modules/history/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-js-frontend/node_modules/history/umd/history.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-js-frontend/node_modules/history/umd/history.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-js-frontend/node_modules/history/warnAboutDeprecatedCJSRequire.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-js-frontend/node_modules/hoist-non-react-statics/CHANGELOG.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-js-frontend/node_modules/hoist-non-react-statics/LICENSE.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-js-frontend/node_modules/hoist-non-react-statics/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-js-frontend/node_modules/hoist-non-react-statics/dist/hoist-non-react-statics.cjs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-js-frontend/node_modules/hoist-non-react-statics/dist/hoist-non-react-statics.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-js-frontend/node_modules/hoist-non-react-statics/dist/hoist-non-react-statics.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-js-frontend/node_modules/hoist-non-react-statics/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-js-frontend/node_modules/hoist-non-react-statics/src/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-js-frontend/node_modules/mini-create-react-context/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-js-frontend/node_modules/mini-create-react-context/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-js-frontend/node_modules/mini-create-react-context/dist/cjs/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-js-frontend/node_modules/mini-create-react-context/dist/cjs/index.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-js-frontend/node_modules/mini-create-react-context/dist/esm/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-js-frontend/node_modules/mini-create-react-context/dist/index.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-js-frontend/node_modules/mini-create-react-context/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-js-frontend/node_modules/react-router-dom/BrowserRouter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-js-frontend/node_modules/react-router-dom/HashRouter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-js-frontend/node_modules/react-router-dom/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-js-frontend/node_modules/react-router-dom/Link.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-js-frontend/node_modules/react-router-dom/MemoryRouter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-js-frontend/node_modules/react-router-dom/NavLink.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-js-frontend/node_modules/react-router-dom/Prompt.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-js-frontend/node_modules/react-router-dom/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-js-frontend/node_modules/react-router-dom/Redirect.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-js-frontend/node_modules/react-router-dom/Route.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-js-frontend/node_modules/react-router-dom/Router.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-js-frontend/node_modules/react-router-dom/StaticRouter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-js-frontend/node_modules/react-router-dom/Switch.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-js-frontend/node_modules/react-router-dom/cjs/react-router-dom.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-js-frontend/node_modules/react-router-dom/cjs/react-router-dom.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-js-frontend/node_modules/react-router-dom/cjs/react-router-dom.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-js-frontend/node_modules/react-router-dom/cjs/react-router-dom.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-js-frontend/node_modules/react-router-dom/es/BrowserRouter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-js-frontend/node_modules/react-router-dom/es/HashRouter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-js-frontend/node_modules/react-router-dom/es/Link.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-js-frontend/node_modules/react-router-dom/es/MemoryRouter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-js-frontend/node_modules/react-router-dom/es/NavLink.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-js-frontend/node_modules/react-router-dom/es/Prompt.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-js-frontend/node_modules/react-router-dom/es/Redirect.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-js-frontend/node_modules/react-router-dom/es/Route.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-js-frontend/node_modules/react-router-dom/es/Router.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-js-frontend/node_modules/react-router-dom/es/StaticRouter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-js-frontend/node_modules/react-router-dom/es/Switch.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-js-frontend/node_modules/react-router-dom/es/generatePath.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-js-frontend/node_modules/react-router-dom/es/matchPath.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-js-frontend/node_modules/react-router-dom/es/warnAboutDeprecatedESMImport.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-js-frontend/node_modules/react-router-dom/es/withRouter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-js-frontend/node_modules/react-router-dom/esm/react-router-dom.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-js-frontend/node_modules/react-router-dom/esm/react-router-dom.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-js-frontend/node_modules/react-router-dom/generatePath.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-js-frontend/node_modules/react-router-dom/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-js-frontend/node_modules/react-router-dom/matchPath.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-js-frontend/node_modules/react-router-dom/modules/BrowserRouter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-js-frontend/node_modules/react-router-dom/modules/HashRouter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-js-frontend/node_modules/react-router-dom/modules/Link.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-js-frontend/node_modules/react-router-dom/modules/NavLink.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-js-frontend/node_modules/react-router-dom/modules/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-js-frontend/node_modules/react-router-dom/modules/utils/locationUtils.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-js-frontend/node_modules/react-router-dom/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-js-frontend/node_modules/react-router-dom/umd/react-router-dom.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-js-frontend/node_modules/react-router-dom/umd/react-router-dom.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-js-frontend/node_modules/react-router-dom/umd/react-router-dom.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-js-frontend/node_modules/react-router-dom/umd/react-router-dom.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-js-frontend/node_modules/react-router-dom/warnAboutDeprecatedCJSRequire.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-js-frontend/node_modules/react-router-dom/withRouter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-js-frontend/node_modules/react-router/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-js-frontend/node_modules/react-router/MemoryRouter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-js-frontend/node_modules/react-router/Prompt.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-js-frontend/node_modules/react-router/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-js-frontend/node_modules/react-router/Redirect.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-js-frontend/node_modules/react-router/Route.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-js-frontend/node_modules/react-router/Router.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-js-frontend/node_modules/react-router/StaticRouter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-js-frontend/node_modules/react-router/Switch.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-js-frontend/node_modules/react-router/cjs/react-router.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-js-frontend/node_modules/react-router/cjs/react-router.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-js-frontend/node_modules/react-router/cjs/react-router.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-js-frontend/node_modules/react-router/cjs/react-router.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-js-frontend/node_modules/react-router/es/MemoryRouter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-js-frontend/node_modules/react-router/es/Prompt.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-js-frontend/node_modules/react-router/es/Redirect.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-js-frontend/node_modules/react-router/es/Route.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-js-frontend/node_modules/react-router/es/Router.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-js-frontend/node_modules/react-router/es/StaticRouter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-js-frontend/node_modules/react-router/es/Switch.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-js-frontend/node_modules/react-router/es/generatePath.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-js-frontend/node_modules/react-router/es/matchPath.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-js-frontend/node_modules/react-router/es/warnAboutDeprecatedESMImport.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-js-frontend/node_modules/react-router/es/withRouter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-js-frontend/node_modules/react-router/esm/react-router.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-js-frontend/node_modules/react-router/esm/react-router.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-js-frontend/node_modules/react-router/generatePath.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-js-frontend/node_modules/react-router/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-js-frontend/node_modules/react-router/matchPath.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-js-frontend/node_modules/react-router/modules/HistoryContext.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-js-frontend/node_modules/react-router/modules/Lifecycle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-js-frontend/node_modules/react-router/modules/MemoryRouter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-js-frontend/node_modules/react-router/modules/Prompt.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-js-frontend/node_modules/react-router/modules/Redirect.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-js-frontend/node_modules/react-router/modules/Route.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-js-frontend/node_modules/react-router/modules/Router.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-js-frontend/node_modules/react-router/modules/RouterContext.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-js-frontend/node_modules/react-router/modules/StaticRouter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-js-frontend/node_modules/react-router/modules/Switch.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-js-frontend/node_modules/react-router/modules/createNameContext.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-js-frontend/node_modules/react-router/modules/generatePath.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-js-frontend/node_modules/react-router/modules/hooks.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-js-frontend/node_modules/react-router/modules/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-js-frontend/node_modules/react-router/modules/matchPath.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-js-frontend/node_modules/react-router/modules/withRouter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-js-frontend/node_modules/react-router/node_modules/isarray/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-js-frontend/node_modules/react-router/node_modules/isarray/build/build.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-js-frontend/node_modules/react-router/node_modules/isarray/component.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-js-frontend/node_modules/react-router/node_modules/isarray/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-js-frontend/node_modules/react-router/node_modules/isarray/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-js-frontend/node_modules/react-router/node_modules/path-to-regexp/History.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-js-frontend/node_modules/react-router/node_modules/path-to-regexp/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-js-frontend/node_modules/react-router/node_modules/path-to-regexp/Readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-js-frontend/node_modules/react-router/node_modules/path-to-regexp/index.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-js-frontend/node_modules/react-router/node_modules/path-to-regexp/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-js-frontend/node_modules/react-router/node_modules/path-to-regexp/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-js-frontend/node_modules/react-router/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-js-frontend/node_modules/react-router/umd/react-router.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-js-frontend/node_modules/react-router/umd/react-router.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-js-frontend/node_modules/react-router/umd/react-router.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-js-frontend/node_modules/react-router/umd/react-router.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-js-frontend/node_modules/react-router/warnAboutDeprecatedCJSRequire.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-js-frontend/node_modules/react-router/withRouter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-js-frontend/node_modules/resolve-pathname/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-js-frontend/node_modules/resolve-pathname/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-js-frontend/node_modules/resolve-pathname/cjs/resolve-pathname.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-js-frontend/node_modules/resolve-pathname/cjs/resolve-pathname.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-js-frontend/node_modules/resolve-pathname/esm/resolve-pathname.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-js-frontend/node_modules/resolve-pathname/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-js-frontend/node_modules/resolve-pathname/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-js-frontend/node_modules/resolve-pathname/umd/resolve-pathname.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-js-frontend/node_modules/resolve-pathname/umd/resolve-pathname.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-js-frontend/node_modules/tiny-invariant/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-js-frontend/node_modules/tiny-invariant/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-js-frontend/node_modules/tiny-invariant/dist/tiny-invariant.cjs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-js-frontend/node_modules/tiny-invariant/dist/tiny-invariant.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-js-frontend/node_modules/tiny-invariant/dist/tiny-invariant.esm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-js-frontend/node_modules/tiny-invariant/dist/tiny-invariant.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-js-frontend/node_modules/tiny-invariant/dist/tiny-invariant.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-js-frontend/node_modules/tiny-invariant/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-js-frontend/node_modules/tiny-invariant/src/tiny-invariant.flow.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-js-frontend/node_modules/tiny-invariant/src/tiny-invariant.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-js-frontend/node_modules/tiny-warning/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-js-frontend/node_modules/tiny-warning/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-js-frontend/node_modules/tiny-warning/dist/tiny-warning.cjs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-js-frontend/node_modules/tiny-warning/dist/tiny-warning.cjs.js.flow" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-js-frontend/node_modules/tiny-warning/dist/tiny-warning.esm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-js-frontend/node_modules/tiny-warning/dist/tiny-warning.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-js-frontend/node_modules/tiny-warning/dist/tiny-warning.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-js-frontend/node_modules/tiny-warning/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-js-frontend/node_modules/tiny-warning/src/index.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-js-frontend/node_modules/tiny-warning/src/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-js-frontend/node_modules/value-equal/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-js-frontend/node_modules/value-equal/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-js-frontend/node_modules/value-equal/cjs/value-equal.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-js-frontend/node_modules/value-equal/cjs/value-equal.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-js-frontend/node_modules/value-equal/esm/value-equal.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-js-frontend/node_modules/value-equal/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-js-frontend/node_modules/value-equal/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-js-frontend/node_modules/value-equal/umd/value-equal.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-js-frontend/node_modules/value-equal/umd/value-equal.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-js-frontend/src/registerServiceWorker.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-js-frontend/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/react-js-frontend/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-js-frontend/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/react-js-frontend/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-js-frontend/node_modules/.cache/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/react-js-frontend/node_modules/.cache/.eslintcache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-js-frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/react-js-frontend/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-js-frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/react-js-frontend/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-js-frontend/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-js-frontend/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-js-frontend/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-js-frontend/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-js-frontend/src/logo.svg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -273,17 +63,7 @@
       <list>
         <serviceView>
           <treeState>
-            <expand>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="root:db-mysql" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              </path>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="root:db-mysql" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="com.intellij.database.console.session.MessageBusSession@285eecc5" type="9fbbdea:ServiceModel$ServiceNode" />
-              </path>
-            </expand>
+            <expand />
             <select />
           </treeState>
         </serviceView>
@@ -304,7 +84,8 @@
       <workItem from="1614060844615" duration="3278000" />
       <workItem from="1614127491665" duration="6792000" />
       <workItem from="1614152512581" duration="1100000" />
-      <workItem from="1614153822375" duration="1332000" />
+      <workItem from="1614153822375" duration="1539000" />
+      <workItem from="1614232476633" duration="31000" />
     </task>
     <servers />
   </component>
