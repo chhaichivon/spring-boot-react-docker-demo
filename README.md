@@ -1,6 +1,4 @@
-
-
-  # Spring boot, with mysql && react js using docker deployment
+  # Spring boot, mysql and react js using docker deployment
 
     1. Spring Boot framework
     2. Mysql database
@@ -18,3 +16,10 @@
   Docker Compose
     
     $ docker-compose up -d
+    
+    or 
+    
+    $ docker-compose up -d --build
+    
+    
+    $ docker-compose stop
