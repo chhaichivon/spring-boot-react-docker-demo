@@ -15,6 +15,6 @@ public class Application {
 
 	@RequestMapping(value = "")
 	public String home(){
-		return "Spring Boot Docker Demo";
+		return "Spring Boot API with Docker Demo";
 	}
 }

@@ -9,7 +9,7 @@ import javax.persistence.*;
  */
 @Entity
 @Table(name = "tb_articles")
-public class Article {
+public class Article extends AuditEntity{
 
     private Integer id;
     private String title;
