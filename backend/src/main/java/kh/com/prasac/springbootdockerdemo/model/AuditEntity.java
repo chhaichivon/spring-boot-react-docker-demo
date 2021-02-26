@@ -22,6 +22,7 @@ import java.util.Date;
 public class AuditEntity implements Serializable {
 
     protected Integer id;
+    private EStatus status;
     protected Date createdAt;
     protected Date updatedAt;
     protected String updatedBy;
@@ -34,6 +35,16 @@ public class AuditEntity implements Serializable {
 
     public void setId(Integer id) {
         this.id = id;
+    }
+
+    @Column(name = "status")
+    @Enumerated(EnumType.STRING)
+    public EStatus getStatus() {
+        return status;
+    }
+
+    public void setStatus(EStatus status) {
+        this.status = status;
     }
 
     @CreatedDate
