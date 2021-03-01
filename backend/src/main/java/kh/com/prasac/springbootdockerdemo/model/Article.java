@@ -1,6 +1,7 @@
 package kh.com.prasac.springbootdockerdemo.model;
 
 import javax.persistence.*;
+import java.util.Date;
 
 /**
  * Copyright (c) PRASAC MFI, Ltd. All rights reserved. (https://www.prasac.com.kh/)
@@ -9,7 +10,7 @@ import javax.persistence.*;
  */
 @Entity
 @Table(name = "tb_articles")
-public class Article extends AuditEntity{
+public class Article extends AuditEntity {
 
     private Integer id;
     private String title;
@@ -39,5 +40,55 @@ public class Article extends AuditEntity{
 
     public void setBody(String body) {
         this.body = body;
+    }
+
+    @Override
+    public EStatus getStatus() {
+        return super.getStatus();
+    }
+
+    @Override
+    public void setStatus(EStatus status) {
+        super.setStatus(status);
+    }
+
+    @Override
+    public Date getCreatedAt() {
+        return super.getCreatedAt();
+    }
+
+    @Override
+    public void setCreatedAt(Date createdAt) {
+        super.setCreatedAt(createdAt);
+    }
+
+    @Override
+    public Date getUpdatedAt() {
+        return super.getUpdatedAt();
+    }
+
+    @Override
+    public void setUpdatedAt(Date updatedAt) {
+        super.setUpdatedAt(updatedAt);
+    }
+
+    @Override
+    public String getUpdatedBy() {
+        return super.getUpdatedBy();
+    }
+
+    @Override
+    public void setUpdatedBy(String updatedBy) {
+        super.setUpdatedBy(updatedBy);
+    }
+
+    @Override
+    public String getCreatedBy() {
+        return super.getCreatedBy();
+    }
+
+    @Override
+    public void setCreatedBy(String createdBy) {
+        super.setCreatedBy(createdBy);
     }
 }

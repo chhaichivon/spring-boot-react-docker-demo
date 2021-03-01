@@ -23,3 +23,26 @@
     
     
     $ docker-compose stop
+
+
+  Remove All Docker Containers
+   
+    $ docker container stop $(docker container ls –aq) && docker system prune –af ––volumes
+
+  Remove All Stopped Containers
+  
+    $ docker container rm $(docker container ls -aq)
+
+
+  Remove all images
+  
+    List:
+    $ docker images -a
+    
+    Remove:
+    $ docker rmi $(docker images -a -q)
+
+  Purging All Unused or Dangling Images, Containers, Volumes, and Networks
+  
+    $ docker system prune
+    $ docker system prune -a

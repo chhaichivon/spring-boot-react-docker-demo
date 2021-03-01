@@ -1,5 +1,6 @@
 package kh.com.prasac.springbootdockerdemo.model;
 
+import com.fasterxml.jackson.annotation.JsonFormat;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import org.springframework.data.annotation.CreatedBy;
 import org.springframework.data.annotation.CreatedDate;
@@ -21,12 +22,12 @@ import java.util.Date;
 @EntityListeners(AuditingEntityListener.class)
 public class AuditEntity implements Serializable {
 
-    protected Integer id;
-    private EStatus status;
-    protected Date createdAt;
-    protected Date updatedAt;
-    protected String updatedBy;
-    protected String createdBy;
+    public Integer id;
+    public EStatus status;
+    public Date createdAt;
+    public Date updatedAt;
+    public String updatedBy;
+    public String createdBy;
 
     @Transient
     public Integer getId() {
@@ -47,10 +48,10 @@ public class AuditEntity implements Serializable {
         this.status = status;
     }
 
+    @JsonFormat(pattern="yyyy-MM-dd")
     @CreatedDate
     @Temporal(TemporalType.TIMESTAMP)
     @Column(name = "created_at", updatable = false)
-    @JsonIgnore
     public Date getCreatedAt() {
         return createdAt;
     }
@@ -58,10 +59,11 @@ public class AuditEntity implements Serializable {
     public void setCreatedAt(Date createdAt) {
         this.createdAt = createdAt;
     }
+
+    @JsonFormat(pattern="yyyy-MM-dd")
     @LastModifiedDate
     @Temporal(TemporalType.TIMESTAMP)
     @Column(name = "updated_at")
-    @JsonIgnore
     public Date getUpdatedAt() {
         return updatedAt;
     }
@@ -72,7 +74,6 @@ public class AuditEntity implements Serializable {
 
     @LastModifiedBy
     @Column(name = "updated_by")
-    @JsonIgnore
     public String getUpdatedBy() {
         return updatedBy;
     }
@@ -83,7 +84,6 @@ public class AuditEntity implements Serializable {
 
     @CreatedBy
     @Column(name = "created_by", updatable = false)
-    @JsonIgnore
     public String getCreatedBy() {
         return createdBy;
     }

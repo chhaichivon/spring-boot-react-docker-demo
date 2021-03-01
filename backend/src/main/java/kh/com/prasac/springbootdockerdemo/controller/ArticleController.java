@@ -2,6 +2,7 @@ package kh.com.prasac.springbootdockerdemo.controller;
 
 import kh.com.prasac.springbootdockerdemo.exception.BadRequestException;
 import kh.com.prasac.springbootdockerdemo.model.Article;
+import kh.com.prasac.springbootdockerdemo.model.EStatus;
 import kh.com.prasac.springbootdockerdemo.payload.ApiObjectResponse;
 import kh.com.prasac.springbootdockerdemo.payload.ApiPageResponse;
 import kh.com.prasac.springbootdockerdemo.payload.Pagination;
@@ -10,10 +11,7 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-import java.util.List;
-import java.util.Map;
-import java.util.NoSuchElementException;
-import java.util.Objects;
+import java.util.*;
 
 /**
  * Copyright (c) PRASAC MFI, Ltd. All rights reserved. (https://www.prasac.com.kh/)
@@ -83,6 +81,9 @@ public class ArticleController {
             apiObjectResponse.setCode(HttpStatus.CREATED.value());
             apiObjectResponse.setMessage(HttpStatus.CREATED.getReasonPhrase());
             apiObjectResponse.setStatus(true);
+            article.setCreatedAt(new Date());
+            article.setCreatedBy("Chhai Chivon");
+            article.setStatus(EStatus.ACTIVE);
             apiObjectResponse.setData(articleService.save(article));
         } catch (NoSuchElementException e) {
             apiObjectResponse.setCode(HttpStatus.BAD_REQUEST.value());
@@ -99,7 +100,12 @@ public class ArticleController {
         try {
             Article existProduct = articleService.get(id);
             if(Objects.nonNull(existProduct)){
-                existProduct = articleService.save(article);
+                existProduct.setUpdatedAt(new Date());
+                existProduct.setUpdatedBy("Chhai Chivon");
+                existProduct.setStatus(EStatus.ACTIVE);
+                existProduct.setTitle(article.getTitle());
+                existProduct.setBody(article.getBody());
+                existProduct = articleService.save(existProduct);
                 apiObjectResponse.setCode(HttpStatus.OK.value());
                 apiObjectResponse.setMessage(HttpStatus.OK.getReasonPhrase());
                 apiObjectResponse.setStatus(true);

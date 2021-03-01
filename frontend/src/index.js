@@ -6,6 +6,8 @@ import './index.css';
 import App from './app/App';
 import reportWebVitals from './reportWebVitals';
 import registerServiceWorker from './registerServiceWorker';
+// Service Worker
+import * as serviceWorker from "./serviceWorker";
 
 ReactDOM.render(
     <Provider store={store}>
@@ -18,4 +20,5 @@ ReactDOM.render(
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 //reportWebVitals();
-registerServiceWorker();
+//registerServiceWorker();
+serviceWorker.unregister();

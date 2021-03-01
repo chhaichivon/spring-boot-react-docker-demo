@@ -68,21 +68,6 @@ const columns = [
     },
 ];
 
-const data = [];
-for (let i = 0; i < 100; i++) {
-    data.push({
-        key: i,
-        id:i,
-        title: `Edrward ${i}`,
-        body: `London Park no. ${i}`,
-        status:'ACTIVE',
-        createdBy:'Chhai Chivon',
-        createdAt:'2021-FEB-25',
-        updatedBy:'Chhai Chivon',
-        updatedAt:'2021-FEB-25'
-    });
-}
-
 class App extends Component{
 
     constructor(props) {
@@ -97,25 +82,27 @@ class App extends Component{
 
     componentWillReceiveProps(nextProps) {
         const articlesData = [];
-        const dataAPI = nextProps.articles.data;
-        for (let i = 0; i < dataAPI.length; i++) {
-            articlesData.push({
-                key: dataAPI[i].id,
-                id:dataAPI[i].id,
-                title: dataAPI[i].title,
-                body: dataAPI[i].body,
-                status:'ACTIVE',
-                createdBy:'Chhai Chivon',
-                createdAt:'2021-FEB-25',
-                updatedBy:'Chhai Chivon',
-                updatedAt:'2021-FEB-25'
+        if(nextProps.articles.data !== undefined && nextProps.articles.data &&  nextProps.articles.data.length > 0){
+            const dataAPI = nextProps.articles.data;
+            for (let i = 0; i < dataAPI.length; i++) {
+                articlesData.push({
+                    key: dataAPI[i].id,
+                    id:dataAPI[i].id,
+                    title: dataAPI[i].title,
+                    body: dataAPI[i].body,
+                    status:'ACTIVE',
+                    createdBy:'Chhai Chivon',
+                    createdAt:'2021-FEB-25',
+                    updatedBy:'Chhai Chivon',
+                    updatedAt:'2021-FEB-25'
+                });
+            }
+            this.setState({
+                articles: articlesData,
+                isLoading: false,
+                visible:false
             });
         }
-        this.setState({
-            articles: articlesData,
-            isLoading: false,
-            visible:false
-        });
     }
 
     state = {
