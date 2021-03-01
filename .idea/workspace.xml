@@ -2,9 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="12710a1d-cb11-43c0-a132-b7f2c2f6483b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/kh/com/prasac/springbootdockerdemo/model/EStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/api/ArticleApi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/api/api.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/api/header.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/saga/ArticleSaga.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/saga/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/setupProxy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/type/ArticleType.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main/java/kh/com/prasac/springbootdockerdemo/model/AuditEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/kh/com/prasac/springbootdockerdemo/model/AuditEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/action/ArticleAction.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/action/ArticleAction.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/app/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/reducer/ArticleReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/reducer/ArticleReducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/reducer/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/reducer/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/store/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/store/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,19 +72,22 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="ignore_missing_gitignore" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/backend/src/main/java/kh/com/prasac/springbootdockerdemo/model" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/frontend" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/backend/src/main/java/kh/com/prasac/springbootdockerdemo/model" />
-      <recent name="D:\Chhai Chivon\Developer\Docker\spring-boot-react-docker-demo\frontend" />
-      <recent name="$PROJECT_DIR$/react-js-frontend/src" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Chhai Chivon\Developer\Docker\spring-boot-react-docker-demo\frontend\src\component" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/frontend" />
+      <recent name="$PROJECT_DIR$/frontend/src" />
+      <recent name="$PROJECT_DIR$/frontend/src/api" />
+      <recent name="$PROJECT_DIR$/backend/src/main/java/kh/com/prasac/springbootdockerdemo/model" />
+      <recent name="D:\Chhai Chivon\Developer\Docker\spring-boot-react-docker-demo\frontend" />
     </key>
   </component>
   <component name="RunManager">
@@ -127,7 +144,7 @@
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="root:db-mysql" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="com.intellij.database.console.session.MessageBusSession@6183ed7b" type="9fbbdea:ServiceModel$ServiceNode" />
+                <item name="com.intellij.database.console.session.MessageBusSession@4fc53fdc" type="9fbbdea:ServiceModel$ServiceNode" />
               </path>
             </expand>
             <select />
@@ -152,6 +169,8 @@
       <workItem from="1614152512581" duration="1100000" />
       <workItem from="1614153822375" duration="1332000" />
       <workItem from="1614170344380" duration="9371000" />
+      <workItem from="1614559169597" duration="289000" />
+      <workItem from="1614568802098" duration="3409000" />
     </task>
     <servers />
   </component>
@@ -169,33 +188,37 @@
     </state>
     <state x="100" y="100" width="1848" height="952" key="DiffContextDialog/0.0.2048.1152@0.0.2048.1152" timestamp="1614300499211" />
     <state x="100" y="100" width="1848" height="952" key="DiffContextDialog/0.25.2048.1070@0.25.2048.1070" timestamp="1614300708479" />
-    <state width="1727" height="328" key="GridCell.Tab.0.bottom" timestamp="1614300927864">
+    <state width="1727" height="704" key="GridCell.Tab.0.bottom" timestamp="1614572202352">
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
-    <state width="1727" height="328" key="GridCell.Tab.0.bottom/0.0.2048.1152@0.0.2048.1152" timestamp="1614300927864" />
+    <state width="1727" height="704" key="GridCell.Tab.0.bottom/0.0.2048.1152@0.0.2048.1152" timestamp="1614572202352" />
     <state width="1383" height="438" key="GridCell.Tab.0.bottom/0.25.2048.1071@0.25.2048.1071" timestamp="1614141215982" />
     <state width="1383" height="438" key="GridCell.Tab.0.bottom/0.25.2048.1072@0.25.2048.1072" timestamp="1614141578590" />
     <state width="1383" height="452" key="GridCell.Tab.0.bottom/0.25.2048.1073@0.25.2048.1073" timestamp="1614142140297" />
-    <state width="1727" height="328" key="GridCell.Tab.0.center" timestamp="1614300927863">
+    <state width="1727" height="704" key="GridCell.Tab.0.center" timestamp="1614572202351">
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
-    <state width="1727" height="328" key="GridCell.Tab.0.center/0.0.2048.1152@0.0.2048.1152" timestamp="1614300927863" />
+    <state width="1727" height="704" key="GridCell.Tab.0.center/0.0.2048.1152@0.0.2048.1152" timestamp="1614572202351" />
     <state width="1383" height="438" key="GridCell.Tab.0.center/0.25.2048.1071@0.25.2048.1071" timestamp="1614141215982" />
     <state width="1383" height="438" key="GridCell.Tab.0.center/0.25.2048.1072@0.25.2048.1072" timestamp="1614141578589" />
     <state width="1383" height="452" key="GridCell.Tab.0.center/0.25.2048.1073@0.25.2048.1073" timestamp="1614142140296" />
-    <state width="1727" height="328" key="GridCell.Tab.0.left" timestamp="1614300927862">
+    <state width="1727" height="704" key="GridCell.Tab.0.left" timestamp="1614572202350">
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
-    <state width="1727" height="328" key="GridCell.Tab.0.left/0.0.2048.1152@0.0.2048.1152" timestamp="1614300927862" />
+    <state width="1727" height="704" key="GridCell.Tab.0.left/0.0.2048.1152@0.0.2048.1152" timestamp="1614572202350" />
     <state width="1383" height="438" key="GridCell.Tab.0.left/0.25.2048.1071@0.25.2048.1071" timestamp="1614141215981" />
     <state width="1383" height="438" key="GridCell.Tab.0.left/0.25.2048.1072@0.25.2048.1072" timestamp="1614141578589" />
     <state width="1383" height="452" key="GridCell.Tab.0.left/0.25.2048.1073@0.25.2048.1073" timestamp="1614142140296" />
-    <state width="1727" height="328" key="GridCell.Tab.0.right" timestamp="1614300927863">
+    <state width="1727" height="704" key="GridCell.Tab.0.right" timestamp="1614572202351">
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
-    <state width="1727" height="328" key="GridCell.Tab.0.right/0.0.2048.1152@0.0.2048.1152" timestamp="1614300927863" />
+    <state width="1727" height="704" key="GridCell.Tab.0.right/0.0.2048.1152@0.0.2048.1152" timestamp="1614572202351" />
     <state width="1383" height="438" key="GridCell.Tab.0.right/0.25.2048.1071@0.25.2048.1071" timestamp="1614141215982" />
     <state width="1383" height="438" key="GridCell.Tab.0.right/0.25.2048.1072@0.25.2048.1072" timestamp="1614141578590" />
     <state width="1383" height="452" key="GridCell.Tab.0.right/0.25.2048.1073@0.25.2048.1073" timestamp="1614142140297" />
+    <state x="533" y="212" key="SettingsEditor" timestamp="1614559192898">
+      <screen x="0" y="0" width="2048" height="1152" />
+    </state>
+    <state x="533" y="212" key="SettingsEditor/0.0.2048.1152@0.0.2048.1152" timestamp="1614559192898" />
   </component>
 </project>
