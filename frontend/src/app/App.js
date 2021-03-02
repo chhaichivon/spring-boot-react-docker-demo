@@ -7,7 +7,6 @@ import {connect} from "react-redux";
 import './App.css';
 const { Header, Footer, Sider, Content } = Layout;
 
-
 const columns = [
     {
         title: 'ID',
