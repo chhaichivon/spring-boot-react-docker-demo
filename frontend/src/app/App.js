@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import { Table, Layout, Button, Modal } from 'antd';
+import { Table, Layout, Button, Modal, Row,Col,Form, Input,Image } from 'antd';
 import {bindActionCreators} from "redux";
 import {getArticlesAction, getArticleAction} from "../action/ArticleAction";
 import {connect} from "react-redux";
@@ -68,6 +68,8 @@ const columns = [
     },
 ];
 
+const { TextArea } = Input;
+
 class App extends Component{
 
     constructor(props) {
@@ -129,46 +131,80 @@ class App extends Component{
 
     render() {
         const { visible, loading } = this.state;
+
+        const onFinish = (values) => {
+            console.log(values);
+        };
+
+        const validateMessages = {
+            required: '${label} is required!',
+            types: {
+                email: '${label} is not a valid email!',
+                number: '${label} is not a valid number!',
+            },
+            number: {
+                range: '${label} must be between ${min} and ${max}',
+            },
+        };
+
         return (
             <Layout>
                 <Header className={'appHeader'}>
+                    <Image
 
+                        width={100}
+                        src="https://www.techostartup.center/static/img/why_us.gif"
+                        preview={{
+                            src: "https://www.techostartup.center/static/img/why_us.gif",
+                        }}
+                    />
+                    <h2>Welcome to Spring Boot React Docker</h2>
                 </Header>
                 <Layout>
                     <Sider className={'appSider'}>
-                        <Button type="primary" onClick={this.showModal}>
-                            Add new article
-                        </Button>
+
                     </Sider>
-                    <Content>
-                        {
-                            this.state.isLoading ? <h3>Loading...</h3> : (
-                                <Table key={"article"} columns={columns} dataSource={this.state.articles} scroll={{ x: 1500 }} sticky />
-                            )
-                        }
-                        <Modal
-                            visible={visible}
-                            title="Add new article"
-                            onOk={this.handleOk}
-                            onCancel={this.handleCancel}
-                            footer={[
-                                <Button key="back" onClick={this.handleCancel}>
-                                    Cancel
-                                </Button>,
-                                <Button key="submit" type="primary" loading={loading} onClick={this.handleOk}>
-                                    Submit
-                                </Button>,
-                            ]}
-                        >
-                            <p>Some contents...</p>
-                            <p>Some contents...</p>
-                            <p>Some contents...</p>
-                            <p>Some contents...</p>
-                            <p>Some contents...</p>
-                        </Modal>
+                    <Content className={'appContent'}>
+                        <Row>
+                            <Col>
+                                <Button type="primary" onClick={this.showModal}>
+                                    Add new article
+                                </Button>
+                            </Col>
+                            <Col>
+                                {
+                                    this.state.isLoading ? <h3>Loading...</h3> : (
+                                        <Table key={"article"} columns={columns} dataSource={this.state.articles} scroll={{ x: 1500 }} sticky />
+                                    )
+                                }
+
+                                <Modal
+                                    visible={visible}
+                                    title="Add new article"
+                                    onOk={this.handleOk}
+                                    onCancel={this.handleCancel}
+                                    footer={[
+                                        <Button key="back" onClick={this.handleCancel}>
+                                            Cancel
+                                        </Button>,
+                                        <Button key="submit" type="primary" loading={loading} onClick={this.handleOk}>
+                                            Submit
+                                        </Button>,
+                                    ]}
+                                >
+                                    <TextArea placeholder="Title" autoSize />
+                                    <div style={{ margin: '24px 0' }} />
+                                    <TextArea
+                                        onChange={this.onChange}
+                                        placeholder="Body"
+                                        autoSize={{ minRows: 3, maxRows: 5 }}
+                                    />
+                                </Modal>
+                            </Col>
+                        </Row>
                     </Content>
                 </Layout>
-                <Footer className={'appFooter'}>Footer</Footer>
+                <Footer className={'appFooter'}>Copyright © 2021 All Rights Reserved, PRASAC MFI Plc.</Footer>
             </Layout>
         );
     }

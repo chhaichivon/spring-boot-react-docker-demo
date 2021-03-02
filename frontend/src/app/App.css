@@ -1,12 +1,17 @@
 @import '~antd/dist/antd.css';
 .appHeader{
-    background-color: #f3bba6;
+    background-color: white;
+    height: 150px;
 }
 
 .appSider{
-    background-color: #f3bba6;
+    background-color: white;
 }
 
 .appFooter{
-    background-color: #f3bba6;
+    background-color: white;
+    text-align: center;
+}
+.appContent {
+    margin: 5px;
 }
