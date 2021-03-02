@@ -2,19 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="12710a1d-cb11-43c0-a132-b7f2c2f6483b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/kh/com/prasac/springbootdockerdemo/config/WebMvcConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/serviceWorker.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main/java/kh/com/prasac/springbootdockerdemo/controller/ArticleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/kh/com/prasac/springbootdockerdemo/controller/ArticleController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main/java/kh/com/prasac/springbootdockerdemo/model/Article.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/kh/com/prasac/springbootdockerdemo/model/Article.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main/java/kh/com/prasac/springbootdockerdemo/model/AuditEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/kh/com/prasac/springbootdockerdemo/model/AuditEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/backend/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/.env" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/api/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/api/api.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/app/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/setupProxy.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/setupProxy.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,12 +30,7 @@
     <option name="HIDDEN_KINDS">
       <set />
     </option>
-    <expand>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="db-mysql" type="feb32156:DbDataSourceImpl" />
-      </path>
-    </expand>
+    <expand />
     <select />
   </component>
   <component name="FileTemplateManagerImpl">
@@ -132,12 +120,7 @@
         <serviceView>
           <option name="contentProportion" value="0.1259484" />
           <treeState>
-            <expand>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="root:db-mysql" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              </path>
-            </expand>
+            <expand />
             <select />
           </treeState>
         </serviceView>
@@ -162,7 +145,9 @@
       <workItem from="1614170344380" duration="9371000" />
       <workItem from="1614559169597" duration="289000" />
       <workItem from="1614568802098" duration="5346000" />
-      <workItem from="1614577141492" duration="9243000" />
+      <workItem from="1614577141492" duration="9346000" />
+      <workItem from="1614645462330" duration="4313000" />
+      <workItem from="1614652074781" duration="1689000" />
     </task>
     <servers />
   </component>
@@ -170,41 +155,45 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="669" y="166" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1614141158181">
+    <state x="755" y="170" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1614651936058">
       <screen x="0" y="25" width="2048" height="1071" />
     </state>
     <state x="919" y="212" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2048.1152@0.0.2048.1152" timestamp="1614061604809" />
-    <state x="669" y="166" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.25.2048.1071@0.25.2048.1071" timestamp="1614141158181" />
+    <state x="755" y="170" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.25.2048.1071@0.25.2048.1071" timestamp="1614651936058" />
     <state x="100" y="100" width="1848" height="952" key="DiffContextDialog" timestamp="1614300708479">
       <screen x="0" y="25" width="2048" height="1070" />
     </state>
     <state x="100" y="100" width="1848" height="952" key="DiffContextDialog/0.0.2048.1152@0.0.2048.1152" timestamp="1614300499211" />
     <state x="100" y="100" width="1848" height="952" key="DiffContextDialog/0.25.2048.1070@0.25.2048.1070" timestamp="1614300708479" />
-    <state width="1727" height="704" key="GridCell.Tab.0.bottom" timestamp="1614572202352">
-      <screen x="0" y="0" width="2048" height="1152" />
+    <state width="1727" height="339" key="GridCell.Tab.0.bottom" timestamp="1614651574371">
+      <screen x="0" y="25" width="2048" height="1070" />
     </state>
     <state width="1727" height="704" key="GridCell.Tab.0.bottom/0.0.2048.1152@0.0.2048.1152" timestamp="1614572202352" />
+    <state width="1727" height="339" key="GridCell.Tab.0.bottom/0.25.2048.1070@0.25.2048.1070" timestamp="1614651574371" />
     <state width="1383" height="438" key="GridCell.Tab.0.bottom/0.25.2048.1071@0.25.2048.1071" timestamp="1614141215982" />
     <state width="1383" height="438" key="GridCell.Tab.0.bottom/0.25.2048.1072@0.25.2048.1072" timestamp="1614141578590" />
     <state width="1383" height="452" key="GridCell.Tab.0.bottom/0.25.2048.1073@0.25.2048.1073" timestamp="1614142140297" />
-    <state width="1727" height="704" key="GridCell.Tab.0.center" timestamp="1614572202351">
-      <screen x="0" y="0" width="2048" height="1152" />
+    <state width="1727" height="339" key="GridCell.Tab.0.center" timestamp="1614651574370">
+      <screen x="0" y="25" width="2048" height="1070" />
     </state>
     <state width="1727" height="704" key="GridCell.Tab.0.center/0.0.2048.1152@0.0.2048.1152" timestamp="1614572202351" />
+    <state width="1727" height="339" key="GridCell.Tab.0.center/0.25.2048.1070@0.25.2048.1070" timestamp="1614651574370" />
     <state width="1383" height="438" key="GridCell.Tab.0.center/0.25.2048.1071@0.25.2048.1071" timestamp="1614141215982" />
     <state width="1383" height="438" key="GridCell.Tab.0.center/0.25.2048.1072@0.25.2048.1072" timestamp="1614141578589" />
     <state width="1383" height="452" key="GridCell.Tab.0.center/0.25.2048.1073@0.25.2048.1073" timestamp="1614142140296" />
-    <state width="1727" height="704" key="GridCell.Tab.0.left" timestamp="1614572202350">
-      <screen x="0" y="0" width="2048" height="1152" />
+    <state width="1727" height="339" key="GridCell.Tab.0.left" timestamp="1614651574370">
+      <screen x="0" y="25" width="2048" height="1070" />
     </state>
     <state width="1727" height="704" key="GridCell.Tab.0.left/0.0.2048.1152@0.0.2048.1152" timestamp="1614572202350" />
+    <state width="1727" height="339" key="GridCell.Tab.0.left/0.25.2048.1070@0.25.2048.1070" timestamp="1614651574370" />
     <state width="1383" height="438" key="GridCell.Tab.0.left/0.25.2048.1071@0.25.2048.1071" timestamp="1614141215981" />
     <state width="1383" height="438" key="GridCell.Tab.0.left/0.25.2048.1072@0.25.2048.1072" timestamp="1614141578589" />
     <state width="1383" height="452" key="GridCell.Tab.0.left/0.25.2048.1073@0.25.2048.1073" timestamp="1614142140296" />
-    <state width="1727" height="704" key="GridCell.Tab.0.right" timestamp="1614572202351">
-      <screen x="0" y="0" width="2048" height="1152" />
+    <state width="1727" height="339" key="GridCell.Tab.0.right" timestamp="1614651574371">
+      <screen x="0" y="25" width="2048" height="1070" />
     </state>
     <state width="1727" height="704" key="GridCell.Tab.0.right/0.0.2048.1152@0.0.2048.1152" timestamp="1614572202351" />
+    <state width="1727" height="339" key="GridCell.Tab.0.right/0.25.2048.1070@0.25.2048.1070" timestamp="1614651574371" />
     <state width="1383" height="438" key="GridCell.Tab.0.right/0.25.2048.1071@0.25.2048.1071" timestamp="1614141215982" />
     <state width="1383" height="438" key="GridCell.Tab.0.right/0.25.2048.1072@0.25.2048.1072" timestamp="1614141578590" />
     <state width="1383" height="452" key="GridCell.Tab.0.right/0.25.2048.1073@0.25.2048.1073" timestamp="1614142140297" />

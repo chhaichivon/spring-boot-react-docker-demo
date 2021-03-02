@@ -8,6 +8,7 @@ services:
     build:
       context: ./backend # Use an image built from the specified dockerfile in the `backend` directory.
       dockerfile: Dockerfile
+    container_name: backend-service-v1
     ports:
       - "8080:8080" # Forward the exposed port 8080 on the container to port 8080 on the host machine
     restart: always
@@ -27,6 +28,7 @@ services:
       dockerfile: Dockerfile
       args:
         REACT_APP_API_BASE_URL: http://127.0.0.1:8080/api
+    container_name: frontend-service-v1
     ports:
       - "3000:80" # Forward the exposed port 80 on the container to port 80 on the host machine
     restart: always
@@ -38,6 +40,7 @@ services:
   # Database Service (Mysql)
   db-mysql:
     image: mysql:5.7
+    container_name: db-mysql
     ports:
       - "3306:3306"
     restart: always

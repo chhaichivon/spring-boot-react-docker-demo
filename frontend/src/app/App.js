@@ -90,11 +90,11 @@ class App extends Component{
                     id:dataAPI[i].id,
                     title: dataAPI[i].title,
                     body: dataAPI[i].body,
-                    status:'ACTIVE',
-                    createdBy:'Chhai Chivon',
-                    createdAt:'2021-FEB-25',
-                    updatedBy:'Chhai Chivon',
-                    updatedAt:'2021-FEB-25'
+                    status:dataAPI[i].status,
+                    createdBy:dataAPI[i].createdBy,
+                    createdAt:dataAPI[i].createdAt,
+                    updatedBy:dataAPI[i].updatedBy,
+                    updatedAt:dataAPI[i].updatedAt
                 });
             }
             this.setState({

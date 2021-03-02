@@ -1,5 +1,4 @@
 
-
    Dockerfile  guide
 
     WORKDIR --> It is used for switch to that directory for copy or add files or run some command in that directory in container. It also helps to create the new directory, which are used for building the image, copy the code and settings to it.
