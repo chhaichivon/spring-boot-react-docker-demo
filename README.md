@@ -5,7 +5,7 @@
     3. React JS
     
   <div align="center">
-       <img src="/screenshot/Screenshot1.png" width="400px"></img>
+       <img src="/screenshot/Screenshot1.png"></img>
   </div>
     
    
