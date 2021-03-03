@@ -34,10 +34,10 @@ export function getArticleApi(action) {
 
 export function saveArticleApi(action) {
     const API_URL = API.API_ARTICLES;
-    return axios.post({
+    return axios({
             method: "post",
             url: API_URL,
-            data: action,
+            data: action.article,
             headers: HEADER.config,
         }).then(function (response) {
             console.log('saveArticleApi response data ', response.data);
