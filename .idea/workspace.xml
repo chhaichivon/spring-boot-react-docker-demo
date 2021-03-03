@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="12710a1d-cb11-43c0-a132-b7f2c2f6483b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/frontend/src/component/modal/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/view/article/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/view/home/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshot/Screenshot1.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/api/ArticleApi.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/api/ArticleApi.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/app/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +54,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="ignore_missing_gitignore" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/frontend/src" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/screenshot" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -65,15 +62,15 @@
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Chhai Chivon\Developer\Docker\spring-boot-react-docker-demo\frontend\src\component" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/screenshot" />
       <recent name="$PROJECT_DIR$/frontend/src" />
       <recent name="$PROJECT_DIR$/frontend" />
       <recent name="$PROJECT_DIR$/frontend/src/api" />
       <recent name="$PROJECT_DIR$/backend/src/main/java/kh/com/prasac/springbootdockerdemo/model" />
-      <recent name="D:\Chhai Chivon\Developer\Docker\spring-boot-react-docker-demo\frontend" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Chhai Chivon\Developer\Docker\spring-boot-react-docker-demo\frontend\src\component" />
     </key>
   </component>
   <component name="RunManager">
@@ -150,7 +147,7 @@
       <workItem from="1614577141492" duration="9346000" />
       <workItem from="1614645462330" duration="4313000" />
       <workItem from="1614652074781" duration="6454000" />
-      <workItem from="1614736207361" duration="7401000" />
+      <workItem from="1614736207361" duration="8599000" />
     </task>
     <servers />
   </component>
