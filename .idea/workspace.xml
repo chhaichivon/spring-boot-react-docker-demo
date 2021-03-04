@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="12710a1d-cb11-43c0-a132-b7f2c2f6483b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/app/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/App.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -146,7 +146,8 @@
       <workItem from="1614577141492" duration="9346000" />
       <workItem from="1614645462330" duration="4313000" />
       <workItem from="1614652074781" duration="6454000" />
-      <workItem from="1614736207361" duration="9761000" />
+      <workItem from="1614736207361" duration="9979000" />
+      <workItem from="1614819369533" duration="4396000" />
     </task>
     <servers />
   </component>
@@ -159,11 +160,11 @@
     </state>
     <state x="919" y="212" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2048.1152@0.0.2048.1152" timestamp="1614061604809" />
     <state x="755" y="170" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.25.2048.1071@0.25.2048.1071" timestamp="1614651936058" />
-    <state x="100" y="100" width="1848" height="952" key="DiffContextDialog" timestamp="1614659505426">
+    <state x="100" y="100" width="1848" height="952" key="DiffContextDialog" timestamp="1614820412669">
       <screen x="0" y="25" width="2048" height="1070" />
     </state>
     <state x="100" y="100" width="1848" height="952" key="DiffContextDialog/0.0.2048.1152@0.0.2048.1152" timestamp="1614300499211" />
-    <state x="100" y="100" width="1848" height="952" key="DiffContextDialog/0.25.2048.1070@0.25.2048.1070" timestamp="1614659505426" />
+    <state x="100" y="100" width="1848" height="952" key="DiffContextDialog/0.25.2048.1070@0.25.2048.1070" timestamp="1614820412669" />
     <state width="1727" height="339" key="GridCell.Tab.0.bottom" timestamp="1614651574371">
       <screen x="0" y="25" width="2048" height="1070" />
     </state>

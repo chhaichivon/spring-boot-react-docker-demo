@@ -143,10 +143,13 @@ class App extends Component{
     };
 
     handleOk = () => {
-        this.setState({ loading: true });
-        setTimeout(() => {
-            this.setState({ loading: false, visible: false });
-        }, 3000);
+        //this.setState({ loading: true });
+
+        // setTimeout(() => {
+        //     this.setState({ loading: false, visible: false });
+        // }, 3000);
+        this.setState({ loading: false, visible: false });
+        this.handleSave();
     };
 
     handleCancel = () => {
@@ -196,7 +199,7 @@ class App extends Component{
                     <Content className={'appContent'}>
                         <Row>
                             <Col>
-                                <Button type="primary" onClick={this.handleSave}>
+                                <Button type="primary" onClick={this.showModal}>
                                     Add new article
                                 </Button>
                             </Col>
