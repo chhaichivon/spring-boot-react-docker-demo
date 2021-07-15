@@ -4,6 +4,9 @@
     <list default="true" id="12710a1d-cb11-43c0-a132-b7f2c2f6483b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/backend/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/app/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/App.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +41,12 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
   </component>
   <component name="ProjectId" id="1odueg8UuS4ulgZZxmdXH4fDfUG" />
   <component name="ProjectViewState">
@@ -149,7 +158,9 @@
       <workItem from="1614736207361" duration="9979000" />
       <workItem from="1614819369533" duration="4525000" />
       <workItem from="1617842341179" duration="236000" />
-      <workItem from="1625483171230" duration="2658000" />
+      <workItem from="1625483171230" duration="3186000" />
+      <workItem from="1625535999319" duration="142000" />
+      <workItem from="1626352848368" duration="2304000" />
     </task>
     <servers />
   </component>

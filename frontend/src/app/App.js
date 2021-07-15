@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import { Table, Layout, Button, Modal, Row,Col,Form, Input,Image } from 'antd';
 import {bindActionCreators} from "redux";
+import {FileAddOutlined, EditOutlined, DeleteOutlined} from '@ant-design/icons';
 import {getArticlesAction, getArticleAction,saveArticleAction,updateArticleAction,deleteArticleAction} from "../action/ArticleAction";
 import {connect} from "react-redux";
 import AppModal from './../component/modal';
@@ -71,7 +72,10 @@ class App extends Component{
                     key: 'operation',
                     fixed: 'right',
                     width: 100,
-                    render: (text, record) => (<a onClick={(e) => { this.handleDelete(record.id, e); }}>Delete</a>),
+                    render: (text, record) => (<span>
+                        <Button type="primary" icon={<EditOutlined />} size='large' onClick={(e) => { this.handleDelete(record.id, e); }}/>
+                        <Button type="primary" icon={<DeleteOutlined />} size='large' danger onClick={(e) => { this.handleDelete(record.id, e); }}/>
+                    </span>),
                 },
             ],
             articles : [],
@@ -200,7 +204,7 @@ class App extends Component{
                         <Row>
                             <Col>
                                 <Button type="primary" onClick={this.showModal}>
-                                    Add new article
+                                    <FileAddOutlined />
                                 </Button>
                             </Col>
                             <Col>
@@ -226,7 +230,6 @@ class App extends Component{
                                     <TextArea placeholder="Title" autoSize />
                                     <div style={{ margin: '24px 0' }} />
                                     <TextArea
-                                        onChange={this.onChange}
                                         placeholder="Body"
                                         autoSize={{ minRows: 3, maxRows: 5 }}
                                     />
